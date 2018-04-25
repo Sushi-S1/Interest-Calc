@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="create.css" type="text/css">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/animate.css" media="screen,projection" />
-  <script type="text/javascript" src="create.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script language="JavaScript" type="text/javascript" src="materialize.js"></script>
@@ -16,12 +15,12 @@
 
 
       <div class="nav-wrapper grey darken-1 container">
-        <a href="#" class="brand-logo">BankAPP</a>
+        <a href="#" class="brand-logo">InterestCalc</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="">Home</a></li>
-          <li><a href="borrow.html">Borrow</a></li>
-          <li><a href="about.html">About</a></li>
-        <li><a href="index.html">Sign out</a></li>
+          <li><a href="simpleIntCalc.html">Simple Interest</a></li>
+          <li><a href="compoundIntCalc.html">Compound Interest</a></li>
+
         </ul>
       </div>
 
@@ -33,7 +32,7 @@
 
 <div class="center-align">
   <div class="white-text">
-<h5>Hello! Welcome to the bank!</h5>
+<h5>Hello! Welcome to InterestCalc!</h5>
 </div>
 </div>
 
@@ -42,50 +41,28 @@
 </div>
 
 <h5></h5>
-<div class="valign-wrapper center-align">
-
-
-
-  <div class="row">
-    <div class="col s12">
-      <div class="card-panel white">
-        <h4>Balance:</h4>
-        <div class="white-text">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am conv</p>
-        </div>
-            <h1 id="balance">$0.00</h1>
-        <h6></h6>
-
-        <a class="waves-effect waves-light btn" data-target="depositModal">
-          deposit money
-        </a>
-
-
-
-      </div>
-    </div>
-  </div>
-
-
-  <div class="row">
-        <div class="col s12 ">
-      <div class="card-panel white">
-        <h4>Debt:</h4>
-        <div class="white-text">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am conv</p>
-        </div>
-          <h1 id="debt">$0.00</h1>
-          <h6></h6>
-          <a class="waves-effect waves-light btn" data-target="payDebtmodal">
-            Pay off debt
-          </a>
-
-      </div>
+<div class="row">
+  <div class="col s12 m5">
+    <div class="card-panel teal">
+      <h3 class="white-text">Simple Interest:</h3>
+      <span class="white-text">InterestCalc can calculate simple interest, simpily fill out the provided fields and click submit.
+      </span>
     </div>
   </div>
 </div>
+
+
+<div class="row">
+  <div class="col s12 m5 offset-m7">
+    <div class="card-panel teal">
+        <h3 class="white-text">Compound Interest:</h3>
+        <span class="white-text">InterestCalc can also calculate compound interest, simpily fill out the provided fields and click submit.
+        </span>
+    </div>
+  </div>
+</div>
+
+
 
 <h3></h3>
 
@@ -108,7 +85,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          IntrestCalc
+          InterestCalc
 
           </div>
         </div>
