@@ -61,6 +61,11 @@ function compoundCalc() {
         }
 
     }
+  else{
+    M.toast({
+        html: "Please fill out all fields."
+    })
+  }
 }
 
 
